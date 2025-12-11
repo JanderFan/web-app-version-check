@@ -7,7 +7,7 @@ const pluginName = 'vite-plugin-pkg-version';
 let outDir = 'dist';
 let root = cwd();
 
-export function VitePluginPkgVersion(): Plugin {
+export function VitePluginPackageVersionGenerator(): Plugin {
   return {
     name: pluginName,
     apply: 'build',

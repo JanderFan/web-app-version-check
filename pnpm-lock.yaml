@@ -31,13 +31,13 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
-  packages/vite-plugin-pkg-version:
+  packages/vite-plugin-package-version-generator:
     devDependencies:
       vite:
         specifier: 'catalog:'
         version: 6.4.1(@types/node@22.19.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(tsx@4.21.0)
 
-  packages/vue-plugin-pkg-version:
+  packages/vue-plugin-package-version-check:
     devDependencies:
       terser:
         specifier: ^5.44.1
@@ -65,7 +65,7 @@ importers:
         version: 3.4.0
       vue-plugin-package-version-check:
         specifier: workspace:^
-        version: link:../../packages/vue-plugin-pkg-version
+        version: link:../../packages/vue-plugin-package-version-check
       vue-sonner:
         specifier: ^2.0.9
         version: 2.0.9
@@ -88,9 +88,9 @@ importers:
       vite:
         specifier: 'catalog:'
         version: 6.4.1(@types/node@22.19.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(tsx@4.21.0)
-      vite-plugin-pkg-version:
+      vite-plugin-package-version-generator:
         specifier: workspace:^
-        version: link:../../packages/vite-plugin-pkg-version
+        version: link:../../packages/vite-plugin-package-version-generator
       vue:
         specifier: catalog:vue3
         version: 3.5.25(typescript@5.9.3)

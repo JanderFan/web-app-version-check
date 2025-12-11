@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-pkg-version",
+  "name": "vite-plugin-package-version-generator",
   "version": "1.0.0",
   "type": "module",
   "description": "generate version.json file from package.json",
