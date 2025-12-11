@@ -21,7 +21,7 @@ export const VuePluginPackageVersionCheck: Plugin<VuePluginPackageVersionOptions
         (next) => {
           // 获取本地版本
           const version = localStorage.getItem(VuePluginPackageVersionCheckStorageKey);
-          fetch(options.resolveVersionFilePath?.() ?? '/version.json')
+          fetch(options.resolveVersionFilePath?.() ?? '/package-version.json')
             .then((res) => res.json())
             .then((data) => {
               console.log('data :>> ', data.version);
