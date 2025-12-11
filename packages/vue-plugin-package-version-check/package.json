@@ -24,5 +24,8 @@
   },
   "peerDependencies": {
     "vue": "catalog:vue3"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

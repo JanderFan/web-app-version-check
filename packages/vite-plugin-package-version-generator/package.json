@@ -24,5 +24,8 @@
   },
   "peerDependencies": {
     "vite": "catalog:"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
