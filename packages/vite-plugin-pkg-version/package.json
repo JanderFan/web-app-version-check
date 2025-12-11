@@ -2,15 +2,17 @@
   "name": "vite-plugin-pkg-version",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "generate version.json file from package.json",
   "scripts": {
     "build": "tsup"
   },
+  "module": "dist/index.js",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
   "keywords": [],
   "author": "Jander Fan",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^25.0.0",
     "vite": "catalog:"
   },
   "peerDependencies": {

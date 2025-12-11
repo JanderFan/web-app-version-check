@@ -1,0 +1,21 @@
+{
+  "name": "vue-plugin-package-version-check",
+  "version": "1.0.0",
+  "description": "Vue plugin to check package version",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Jander Fan",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.44.1",
+    "vue": "catalog:vue3"
+  },
+  "peerDependencies": {
+    "vue": "catalog:vue3"
+  }
+}

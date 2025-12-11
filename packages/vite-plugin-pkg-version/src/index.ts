@@ -3,11 +3,11 @@ import { resolve } from 'node:path';
 import { cwd } from 'node:process';
 import type { Plugin } from 'vite';
 
-const pluginName = 'vite-plugin-version';
+const pluginName = 'vite-plugin-pkg-version';
 let outDir = 'dist';
 let root = cwd();
 
-export function vitePluginVersion(): Plugin {
+export function VitePluginPkgVersion(): Plugin {
   return {
     name: pluginName,
     apply: 'build',
@@ -27,7 +27,7 @@ export function vitePluginVersion(): Plugin {
       const versionFileContent = {
         version: `v${version}`
       };
-      const versionFilePath = resolve(root, outDir, 'version.json');
+      const versionFilePath = resolve(root, outDir, 'package-version.json');
 
       writeFileSync(versionFilePath, JSON.stringify(versionFileContent, null, 2), {
         encoding: 'utf-8'
