@@ -1,9 +1,6 @@
 {
   "name": "web-app-version-check",
-  "version": "1.0.0",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
     "@types/node": "^22",
