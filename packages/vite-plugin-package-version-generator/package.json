@@ -9,8 +9,15 @@
   "module": "dist/index.js",
   "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
-  "keywords": [],
+  "keywords": [
+    "vite",
+    "plugin"
+  ],
   "author": "Jander Fan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanderFan/web-app-version-check.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "vite": "catalog:"

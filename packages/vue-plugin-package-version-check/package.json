@@ -8,8 +8,15 @@
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "plugin"
+  ],
   "author": "Jander Fan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanderFan/web-app-version-check.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "terser": "^5.44.1",

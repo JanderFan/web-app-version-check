@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "@types/node": "^22",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
