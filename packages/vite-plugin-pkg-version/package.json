@@ -1,0 +1,19 @@
+{
+  "name": "vite-plugin-pkg-version",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Jander Fan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "vite": "catalog:"
+  },
+  "peerDependencies": {
+    "vite": "catalog:"
+  }
+}
